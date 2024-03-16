@@ -7,7 +7,7 @@ public class Address {
     private String country;
 
     /**
-     * Construct an Address without country
+     * 1Construct an Address without country
      */
     public Address(String street, String town, String postCode) {
         this(street, town, postCode, "");
